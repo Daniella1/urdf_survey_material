@@ -1,7 +1,7 @@
-# Survey materials of ``Understanding URDF: A Survey Based on User Experience''
+# Survey materials of "Understanding URDF: A Survey Based on User Experience"
 ---------------------------------
 
-This package includes the survey materials of "Understanding URDF: A Survey Based on User Experience"
+This package includes the survey materials of "Understanding URDF: A Survey Based on User Experience". The full paper can be found at [arXiv](https://arxiv.org/abs/2302.13442).
 
 This repository includes:
 
