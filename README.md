@@ -9,4 +9,5 @@ This repository includes:
 2. **recruitment_material.pdf**: PDF with the recruitment text used, links some of the posts for recruitment, and descriptions of how and where we have recruited people.
 3. **responses**:
     - _completed_responses_frequency_overview.pdf_: PDF containing the frequency of the responses (from the participants that completed the survey).
-    - _completed_participants_overview.xlsx_: Excel sheet with all the completed responses (open-ended answers included), that can be used for further analysis of the results. The tabs contain our analysis of the results that were used in the survey article. The overall results from the survey can be found in the first tab named _main results_.
+    - _completed_participants_overview_analysis.xlsx_: Excel sheet with all the completed responses (open-ended answers included), that can be used for further analysis of the results. The tabs contain our analysis of the results that were used in the survey article. The overall results from the survey can be found in the first tab named _main results_.
+    - sX_question_name.xlsx_: responses to questions with possibility of open-ended answers. The X indicates the question number, followed by the question name.
