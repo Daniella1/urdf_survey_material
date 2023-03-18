@@ -1,38 +1,36 @@
-;
-s_46;
-I'm curious about the application of URDF to Unity directly for robotic and Unity creation. Things like fusion outputting models 90 degrees off base and with the wrong material bugs me to no end. So anything to make URDF into Unity easier I will always support;
-I would like to help if anything regarding to ros;
-It didn't talk much on closed loop kinematics support much, since this is a major drawback of using urdf.;
-I am also a robotics research PHD student. I am very glad someone is trying to improve URDF, I feel robotics community is not easy for beginers and that might help.;
-Why is the study concentrated at URDF in simulation, when it is not a simulation format by design? Wouldn't it make more sense to have a study about SDF?;
-Very interesting topic, and relevant to my work at BK Medical A/S in Herlev, DK.  It was good to see Aarhus Univ involved in this work and I will welcome a copy of any resulting papers on this subject.;
-The standard is already very good. The robotics community needs to maintain state-of-the-art open-source solutions like the standard.;
-I appreciate the effort to improve URDFs, they can be a little cumbersome at times and wish the researchers luck in this endeavor.A quick note that could improve this study is on the the survey itself and how it translates to the future development of your methods. The section about improvements the participant would like to see in URDFs makes it very clear what the researchers would like to see the URDFs, and do not necessarily reflect what the participants want, it reads more like 'which of the things we are already doing should we do first'. This is not bad, but it biases responses and reduces the amount of responses that may not have been considered before one last thing (sorry!) - the question about if the participant uses URDFs in conjunction with ROS is very limiting and induces a problematic bias. I personally use URDFs in combination with ROS sometimes, other times I use them without ROS (e.g. pybullet). 2 out of the 3 options seemed to be biased towards removing ROS from the equation. I have no specific allegiance to ROS, it is a useful tool, but this question seems to suggest that the desired outcome is 'URDFs should be fully decoupled from ROS'. If that is the unbiased response of the survey, then great, but as it is, the survey makes it difficult to not support this point. There is no accusations meant towards the researchers in these points, these are just external reviews in a form the researcher (while waiting for a meeting to start - sorry this as long) was possibly not expecting and may give a participant a better platform on which to give their full opinion and improve the robotics infrastructure for everyone, otherwise, great work and thanks for the effort! Good luck with the further research, I am excited to see the future methods!;
-The ROS check-URDF tool should not exception on malformed URDF XML.;
-when i was developing a urdf i couldn't find help in creating a urdf of a physical available robot.. and publishing its joint state;
-If you would like help in the development of opensource tools that enhance the current state, please reach out. I would be happy to help and collaborate.;
-Great initiative!;
-NA;
-Urdf must have some easy drag & drop way to make it as well as URDF should support parallel structure not just parent child structure.;
-URDFs should support complex linkage structures like most basically parallel grippers. Todays robots are highly connected between in terms of links.;
-It was unclear what exactly was meant by "simulation". Is, for instance, pure visualisation (as in RVIZ) considered simulation or do you require physics and/or emulation of the robot controller?;
-I think the definitions really just require some mechanic and dynamic parameters but the current urdf implementation has so much overhead and complications it?s ugly and confusing;
-I would like to collaborate on testing and maybe develop future URDF features and improved tools;
-I would like to know how to use URDFs.;
-Definitely need better tool to visualise while developing URDF.;
-I helped create the URDF format at Willow Garage and would love to help create the next version.;
-We use URDF with a dozen of the largest robot manufacuters, but we're developing a more modern and powerful format called BRICK. It will also be an open format with some open source tools surrounding it. Feel free to reach out if you're interested.;
-At Algoryx (algoryx.com) we have been working with a new modelling format for physics and mechanics. It can handle looped systems, the runtime assemble the mechanical system with automatic snapping and can be controlled if wanted using ROS 1 or 2.It may also extend URDF files so that you may reference links, joints and meshes that you like to augment.  We will make this a new open standard, not only for robotics. The mechanisms of the format allow for authoring of domain specific layers for anything you like to create simulation models for.;
-When I make/edit URDFs I usually use rviz combined with http://wiki.ros.org/joint_state_publisher_gui but it is finniky to set up this every time- something easier to simulate and visualize the model would be nice (something akin to mujoco's standard bin/simulate program)These days I use MJCF more often, since I almost always use either Mujoco or IsaacGym for simulating robots these days. I feel that the XML is easier to read (since it is hierarchical) for MJCF rather than URDF (where you have to have separate elements laid out flatly for links and joints);
-gerardoda@hotmail.es;
-manuel.contreras@unipamplona.edu.co;
-Thank you;
-URDFs are great, but there are things that could be improved. Because the standard is to have a single robot description for each robot it would be nice to have a tool that allowed to edit the urdf online. Specially for sensor calibration on the real robots. Where we load the urdf as a robot description with pre defined sensors position but later we might want to change those positions with online calibration. For a large number of sensors it would be nice if we could just "correct" the urdf file online;
-Nice reasearch!;
-We have a coffee mug in the lab that says, "DO NOT CHANGE THE URDF!";
-Some questions seemed redundant (e.g. I feel I answered twice how long I've been using URDF for).;
-Great initiative! I think the first major thing to do to improve the URDF is to set up a mechanism in which improvement can be actually proposed and review. See https://github.com/ros/urdfdom_headers/issues/62 .;
-Sometimes the problematic thing is not only because of urdf in my opinion. For our case we use solidwork exporter to generate both urdf and meshes files(.stl). It?s very troublesome to interpret the stl model coordinates if we want to reuse these models without using urdf convention.;
-It's somewhat striking to me that URDFs are so prominently used e.g. in algorithms yet scale poorly to robots that aren't trees (i.e. closed chains, advanced mechanisms). For a *universal* robot description, it's actually pretty limited.;
-Thanks for the efforts of trying to improve URDF. Looking forward to your plans.;
-We at Algoryx are involved in developing a new open source format together with academia and industry (ABB etc) in Sweden, that can extend URDF to address some of the current shortcomings you mentioned.;
+I'm curious about the application of URDF to Unity directly for robotic and Unity creation. Things like fusion outputting models 90 degrees off base and with the wrong material bugs me to no end. So anything to make URDF into Unity easier I will always support
+
+It didn't talk much on closed loop kinematics support much, since this is a major drawback of using urdf.
+I am also a robotics research PHD student. I am very glad someone is trying to improve URDF, I feel robotics community is not easy for beginers and that might help.
+Why is the study concentrated at URDF in simulation, when it is not a simulation format by design? Wouldn't it make more sense to have a study about SDF?
+Very interesting topic, and relevant to my work at X.  It was good to see Aarhus Univ involved in this work and I will welcome a copy of any resulting papers on this subject.
+The standard is already very good. The robotics community needs to maintain state-of-the-art open-source solutions like the standard.
+I appreciate the effort to improve URDFs, they can be a little cumbersome at times and wish the researchers luck in this endeavor.A quick note that could improve this study is on the the survey itself and how it translates to the future development of your methods. The section about improvements the participant would like to see in URDFs makes it very clear what the researchers would like to see the URDFs, and do not necessarily reflect what the participants want, it reads more like 'which of the things we are already doing should we do first'. This is not bad, but it biases responses and reduces the amount of responses that may not have been considered before one last thing (sorry!) - the question about if the participant uses URDFs in conjunction with ROS is very limiting and induces a problematic bias. I personally use URDFs in combination with ROS sometimes, other times I use them without ROS (e.g. pybullet). 2 out of the 3 options seemed to be biased towards removing ROS from the equation. I have no specific allegiance to ROS, it is a useful tool, but this question seems to suggest that the desired outcome is 'URDFs should be fully decoupled from ROS'. If that is the unbiased response of the survey, then great, but as it is, the survey makes it difficult to not support this point. There is no accusations meant towards the researchers in these points, these are just external reviews in a form the researcher (while waiting for a meeting to start - sorry this as long) was possibly not expecting and may give a participant a better platform on which to give their full opinion and improve the robotics infrastructure for everyone, otherwise, great work and thanks for the effort! Good luck with the further research, I am excited to see the future methods!
+The ROS check-URDF tool should not exception on malformed URDF XML.
+when i was developing a urdf i couldn't find help in creating a urdf of a physical available robot.. and publishing its joint state
+If you would like help in the development of opensource tools that enhance the current state, please reach out. I would be happy to help and collaborate.
+Great initiative!
+NA
+Urdf must have some easy drag & drop way to make it as well as URDF should support parallel structure not just parent child structure.
+URDFs should support complex linkage structures like most basically parallel grippers. Todays robots are highly connected between in terms of links.
+"It was unclear what exactly was meant by ""simulation"". Is, for instance, pure visualisation (as in RVIZ) considered simulation or do you require physics and/or emulation of the robot controller?"
+I think the definitions really just require some mechanic and dynamic parameters but the current urdf implementation has so much overhead and complications it?s ugly and confusing
+I would like to collaborate on testing and maybe develop future URDF features and improved tools
+I would like to know how to use URDFs.
+Definitely need better tool to visualise while developing URDF.
+I helped create the URDF format at Willow Garage and would love to help create the next version.
+We use URDF with a dozen of the largest robot manufacuters, but we're developing a more modern and powerful format called BRICK. It will also be an open format with some open source tools surrounding it. Feel free to reach out if you're interested.
+At X we have been working with a new modelling format for physics and mechanics. It can handle looped systems, the runtime assemble the mechanical system with automatic snapping and can be controlled if wanted using ROS 1 or 2.It may also extend URDF files so that you may reference links, joints and meshes that you like to augment.  We will make this a new open standard, not only for robotics. The mechanisms of the format allow for authoring of domain specific layers for anything you like to create simulation models for.
+When I make/edit URDFs I usually use rviz combined with http://wiki.ros.org/joint_state_publisher_gui but it is finniky to set up this every time- something easier to simulate and visualize the model would be nice (something akin to mujoco's standard bin/simulate program)These days I use MJCF more often, since I almost always use either Mujoco or IsaacGym for simulating robots these days. I feel that the XML is easier to read (since it is hierarchical) for MJCF rather than URDF (where you have to have separate elements laid out flatly for links and joints)
+
+
+Thank you
+"URDFs are great, but there are things that could be improved. Because the standard is to have a single robot description for each robot it would be nice to have a tool that allowed to edit the urdf online. Specially for sensor calibration on the real robots. Where we load the urdf as a robot description with pre defined sensors position but later we might want to change those positions with online calibration. For a large number of sensors it would be nice if we could just ""correct"" the urdf file online"
+Nice reasearch!
+"We have a coffee mug in the lab that says, ""DO NOT CHANGE THE URDF!"""
+Some questions seemed redundant (e.g. I feel I answered twice how long I've been using URDF for).
+Great initiative! I think the first major thing to do to improve the URDF is to set up a mechanism in which improvement can be actually proposed and review. See https://github.com/ros/urdfdom_headers/issues/62 .
+Sometimes the problematic thing is not only because of urdf in my opinion. For our case we use solidwork exporter to generate both urdf and meshes files(.stl). It?s very troublesome to interpret the stl model coordinates if we want to reuse these models without using urdf convention.
+It's somewhat striking to me that URDFs are so prominently used e.g. in algorithms yet scale poorly to robots that aren't trees (i.e. closed chains, advanced mechanisms). For a *universal* robot description, it's actually pretty limited.
+Thanks for the efforts of trying to improve URDF. Looking forward to your plans.
+We at X are involved in developing a new open source format together with academia and industry (ABB etc) in Sweden, that can extend URDF to address some of the current shortcomings you mentioned.
