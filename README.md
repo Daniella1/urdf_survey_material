@@ -7,7 +7,7 @@
 # Survey materials of "Understanding URDF: A Survey Based on User Experience"
 ---------------------------------
 
-This package includes the survey materials of "Understanding URDF: A Survey Based on User Experience". The full paper can be found at [arXiv](https://arxiv.org/abs/2302.13442) or on [IEEE]([https://arxiv.org/abs/2308.00514](https://ieeexplore.ieee.org/document/10260660)).
+This package includes the survey materials of "Understanding URDF: A Survey Based on User Experience". The full paper can be found at [arXiv](https://arxiv.org/abs/2302.13442) or on [IEEE](https://ieeexplore.ieee.org/document/10260660).
 
 This repository includes:
 
@@ -31,7 +31,7 @@ This repository includes:
 
 ## IEEE CASE Paper and Citation Info
 
-Check out the published paper on [IEEE]([https://arxiv.org/abs/2308.00514](https://ieeexplore.ieee.org/document/10260660)).
+Check out the published paper on [IEEE](https://ieeexplore.ieee.org/document/10260660).
 
 If the dataset helped you in your research, please cite
 
