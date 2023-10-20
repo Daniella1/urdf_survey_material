@@ -1,7 +1,13 @@
+<p align="center">
+    <img alt="ViewCount" src="https://views.whatilearened.today/views/github/Daniella1/urdf_survey_material.svg">
+    <br>
+    Counting since 20-10-2023
+</p>
+
 # Survey materials of "Understanding URDF: A Survey Based on User Experience"
 ---------------------------------
 
-This package includes the survey materials of "Understanding URDF: A Survey Based on User Experience". The full paper can be found at [arXiv](https://arxiv.org/abs/2302.13442).
+This package includes the survey materials of "Understanding URDF: A Survey Based on User Experience". The full paper can be found at [arXiv](https://arxiv.org/abs/2302.13442) or on [IEEE]([https://arxiv.org/abs/2308.00514](https://ieeexplore.ieee.org/document/10260660)).
 
 This repository includes:
 
@@ -21,3 +27,21 @@ This repository includes:
     - _challenges_future_predictions_: contains the data on the challenges participants have faced, and their predictions for the future of URDF. The folder contains a Python script, 'analysis.py', for extracting data from 'challenges_future_predictions.csv', and an excel sheet, 'df_challenges_predictions.xlsx', with the analysis and plotting of the data.
     
     - _challenges_ratings_: contains the data on the challenges participants have faced and their rating on the difficulty of creating/modifying URDFs. The folder contains a Python script, 'analysis.py', for extracting data from 'challenges_ratings.csv', and an excel sheet, 'df_challenges_ratings.xlsx', with the analysis and plotting of the data.
+
+
+## IEEE CASE Paper and Citation Info
+
+Check out the published paper on [IEEE]([https://arxiv.org/abs/2308.00514](https://ieeexplore.ieee.org/document/10260660)).
+
+If the dataset helped you in your research, please cite
+
+```
+@INPROCEEDINGS{10260660,
+  author={Tola, Daniella and Corke, Peter},
+  booktitle={2023 IEEE 19th International Conference on Automation Science and Engineering (CASE)}, 
+  title={Understanding URDF: A Survey Based on User Experience}, 
+  year={2023},
+  pages={1-7},
+  doi={10.1109/CASE56687.2023.10260660}
+}
+```
